@@ -1,3 +1,7 @@
 .header {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+}
+
+.content {
+ margin: 0 auto;
 }

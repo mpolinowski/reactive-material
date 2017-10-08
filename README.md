@@ -22,7 +22,7 @@ They are preconfigured and hidden so that you can focus on the code. Just create
 
 01. [Installing Material-UI](#01-installing-material-ui)
 02. [Using Material-UI Components](#02-using-material-ui-components)
-
+03. [Final Design](#03-final-design)
 
 
 ## 01 Installing Material-UI
@@ -163,3 +163,17 @@ Restart your app with *npm start* and reload *localhost:3000* - voila' :
 
 
 As you can see from the examples, we added a few custom styles to our app. /src/index.js imports the complete /src/index.css file scoped globally. While our /src/app.js only imports app specific styles *import styles from './app.css';*, that are available with the className attribute *\<header className={styles.header}\>*. You can use locally scoped [CSS Modules](https://github.com/css-modules/css-modules) for each component that you add to your app!
+
+
+
+## 03 Final Design
+
+This is not yet a production ready design - but it will be a good starting point for future projects. I ended up removing the ButtonAppBar and replaced it with [Responsive Drawer](https://material-ui-1dab0.firebaseapp.com/demos/drawers/#responsive-drawer) component. It gave me a little bit of an headache that the Navbar, that is included here, was *not sticky*. But everything seems to work now - beside some necessary cleanUp inside the JSX:
+
+
+![](./01_mui.png)
+
+
+
+
+Would you use create-react-app and Material-UI in a future project? **Absolutely!**

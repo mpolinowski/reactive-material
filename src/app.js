@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
-import styles from './app.css';
+import './app.css';
 import 'typeface-roboto';
 
-import ButtonAppBar from './ButtonAppBar'
+// import ButtonAppBar from './ButtonAppBar'
+import ResponsiveDrawer from './ResponsiveDrawer';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <header className={styles.header}>
-          <ButtonAppBar />
+        <header className="header">
+          
         </header>
+        <div className="content">
+          <ResponsiveDrawer />
+        </div>
       </div>
     );
   }
