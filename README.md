@@ -70,7 +70,7 @@ Now that you downloaded the more interesting part of the internet, let's start w
 
 ## 02 Using Material-UI Components
 
-The basic usage is simple - create a JavaScript file inside */src* that is named after the component, that you want to use - e.g. [ButtonAppBar](https://material-ui-1dab0.firebaseapp.com/demos/app-bar/#app-bar-with-buttons). Copy the code from the Material-UI page and fine tune the CSS and JSX, where needed:
+The basic usage is simple: e.g. adding a [ButtonAppBar](https://material-ui-1dab0.firebaseapp.com/demos/app-bar/#app-bar-with-buttons) - create a JavaScript file */src/ButtonAppBar.js* that is named after the component that you want to use. Copy the code from the Material-UI page and fine tune the CSS and JSX, where needed:
 
 
 ```js
