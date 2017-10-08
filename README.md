@@ -14,11 +14,11 @@ npm start
 
 Then open http://localhost:3000/ to see your app. You don’t need to install or configure tools like Webpack or Babel.
 They are preconfigured and hidden so that you can focus on the code. Just create a project, and you’re good to go.
----
 
 
 
 
+### Table of Content
 
 01. [Installing Material-UI](#01-installing-material-ui)
 02. [Using Material-UI Components](#02-using-material-ui-components)
