@@ -171,7 +171,7 @@ As you can see from the examples, we added a few custom styles to our app. /src/
 This is not yet a production ready design - but it will be a good starting point for future projects. I ended up removing the ButtonAppBar and replaced it with [Responsive Drawer](https://material-ui-1dab0.firebaseapp.com/demos/drawers/#responsive-drawer) component. It gave me a little bit of an headache that the Navbar, that is included here, was *not sticky*. But everything seems to work now - beside some necessary cleanUp inside the JSX:
 
 
-![](./01_mui.png)
+![](./02_mui.png)
 
 
 
